@@ -81,11 +81,13 @@ Once the local client is installed, use the GUI interface to configure the clien
   <img src="pictures/shadowsocks_gui.png" width="45%" height="25%" title="shadowsocks_gui">
 </p>
 
-The 'Server' IP field is the IP of the remote server created by Terraform. This value is the **<instance_ip_addr>** output to the terminal by the **outputs.tf** file. 
+The 'Server IP' field is the IP address of the remote server created by Terraform. This value is the **<instance_ip_addr>** output to the terminal by the **outputs.tf** file. 
 
 Set 'Server Port' to 8000.
 
 Password is the **TF_VAR_shadowpassword** environment variable set by the **set_vars.sh** script. To to get the 'Password' echo the value of **TF_VAR_shadowpassword** to the terminal.
+
+Set 'Encryption' to aes-256-gcm.
 
 ```bash
 echo $TF_VAR_shadowpassword
