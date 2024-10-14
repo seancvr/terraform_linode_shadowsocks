@@ -1,5 +1,5 @@
 # Deploy Shadowsocks proxy server to Linode with Terraform
-This repository contains the Terraform configuration files and shell scripts to automate the deployment of a Shadowsocks proxy to Linode cloud. With a few commands you can provision and deprovision a shadowsocks proxy to the cloud with a fresh IP address.
+This repository contains the Terraform configuration files and shell scripts to automate the deployment of a Linode cloud instance of a Shadowsocks proxy server. With a few commands you can provision and deprovision a shadowsocks proxy to the cloud with a fresh IP address.
 
 For more information on the Shadowsocks proxy see https://shadowsocks.org.
 ## Deployment steps
