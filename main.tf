@@ -19,7 +19,7 @@ resource "linode_instance" "shadowsocksVM" {
   label           = var.label
   region          = var.region
   type            = var.type
-  authorized_keys = [var.ssh_public_key]
+  authorized_keys = [chomp(var.ssh_public_key)]
   root_pass       = var.root_password
 
   stackscript_id = var.stackscript_id

@@ -11,7 +11,7 @@ variable "os_version" {
 
 variable "label" {
   type    = string
-  default = "shodowsocksBox"
+  default = "shadowsocksBox"
 }
 
 variable "region" {
