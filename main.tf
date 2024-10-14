@@ -6,9 +6,8 @@ terraform {
       version = "2.29.0"
     }
   }
-
-  # Set API token
 }
+# Set API token
 provider "linode" {
   token = var.linode_API_token
 }
