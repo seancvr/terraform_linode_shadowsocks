@@ -87,13 +87,10 @@ Set 'Server Port' to 8000.
 
 Password is the **TF_VAR_shadowpassword** environment variable set by the **set_vars.sh** script. To to get the 'Password' echo the value of **TF_VAR_shadowpassword** to the terminal.
 
-Set 'Encryption' to aes-256-gcm.
-
 ```bash
 echo $TF_VAR_shadowpassword
 ```
-
-
+Set 'Encryption' to aes-256-gcm.
 
 To configure your machine to use the remote proxy, right click the Shadowsocks GUI icon.
 
