@@ -85,7 +85,7 @@ The 'Server IP' field is the IP address of the remote server created by Terrafor
 
 Set 'Server Port' to 8000.
 
-Password is the **TF_VAR_shadowpassword** environment variable set by the **set_vars.sh** script. To to get the 'Password' echo the value of **TF_VAR_shadowpassword** to the terminal.
+'Password' is the **TF_VAR_shadowpassword** environment variable set by the **set_vars.sh** script. To to get the 'Password' echo the value of **TF_VAR_shadowpassword** to the terminal.
 
 ```bash
 echo $TF_VAR_shadowpassword
