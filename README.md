@@ -75,7 +75,7 @@ This Terraform configuration automates the deployment of the Shadowsocks remote 
 Using the proxy requires installing a local client. There are numerous tutorials for installing the local client depending on your operating system. See this guide for installing the local client:
 https://www.linode.com/docs/marketplace-docs/guides/shadowsocks/
 
-Once the local client is installed donfigure the GUI interface with the server IP address and the Shadowsocks password of you remote server. 
+Once the local client is installed, use the GUI interface to configure the client with the remote server IP address and the Shadowsocks password. 
 
 <p align="left">
   <img src="pictures/shadowsocks_gui.png" width="45%" height="25%" title="shadowsocks_gui">
